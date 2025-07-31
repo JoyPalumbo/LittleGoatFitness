@@ -1,0 +1,121 @@
+.App {
+  text-align: center;
+  /* background-color:   #fdf0f6;
+  height: 100%;
+  width: cover;
+  background-size: cover;
+  position: 'absolute' */
+
+}
+
+.background {
+  background-color:   #fdf0f6;
+}
+
+.homeImage {
+  transform: rotateY( 45deg);
+  -webkit-box-shadow: -20px 25px 55px 6px #85919d;
+  box-shadow: -20px 25px 55px 6px #85919d;
+  transform-style: preserve-3d;
+}
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+} */
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+.header {
+  background-color: #e8b7c7;
+  padding: 10px 20px;
+  color: rgb(7, 1, 1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headertitle {
+  color: #771144;
+  font-size: 50px;
+  text-shadow: 1px 1px 2px rgb(238, 82, 108);
+  /* text-shadow: 1px 1px 2px pink; */
+  /* color: #aa5590 */
+  /* color: rgb(95, 30, 49); */
+  /* color: rgb(95, 19, 41); */
+  /* color: rgb(121, 28, 103); */
+}
+
+
+
+.navbar-center .nav-links li {
+  margin-right: 1rem;
+}
+
+.navbar-center .nav-links a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+/* .navbar-right .cart-icon, */
+/* .navbar-right .user-icon {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 1rem;
+  position: relative;
+} */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: #333; */
+  color: #fff;
+  padding: 2rem;
+}
+
+/* .navbar-left .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+} */
+
+.navbar-center .nav-links {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+/* .App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
